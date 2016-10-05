@@ -1,0 +1,269 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.scg-info {
+  background-color: #00928e;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #81d5c8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.scg-info p {
+  margin: 0;
+  padding: 0;
+}
+
+.scg-info .container-fluid {
+  width: 100%;
+  padding-left: 12%;
+  padding-right: 20%;
+}
+
+#scg-info-address {
+  position: absolute;
+  right: 20%;
+  top: 5px;
+}
+
+.navbar {
+  border: none;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.70);
+  z-index: 10;
+}
+
+#navbar.container-fluid {
+  padding-left: 12%;
+  padding-right: 20%;
+}
+
+.twitter {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url('../images/social-media/tw_btn.png') bottom;
+  text-indent: -99999px;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.twitter:hover {
+  background-position: 0 0;
+}
+
+.facebook {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url('../images/social-media/fb_btn.png') bottom;
+  text-indent: -99999px;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.facebook:hover {
+  background-position: 0 0;
+}
+
+.linkedin {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url('../images/social-media/linkedin_btn.png') bottom;
+  text-indent: -99999px;
+  margin-top: 8px;
+}
+
+.linkedin:hover {
+  background-position: 0 0;
+}
+
+ul.nav.navbar-nav {
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: bold;
+  width: calc(100% - 120px);
+  /*margin-left: 10%;
+  width: -moz-calc(100% - 300px);
+  width: -webkit-calc(100% - 300px);
+  width: -o-calc(100% - 300px);*/
+}
+
+nav.navbar.navbar-default {
+  margin: 0;
+  position: relative;
+  width: auto !important;
+}
+
+ul.nav.navbar-nav a {
+  color: #cbcbcb;
+}
+
+ul.nav.navbar-nav a:hover {
+  color: #00928e;
+}
+
+ul.nav.navbar-nav > li {
+  margin-right: auto;
+}
+
+ul.nav.navbar-nav > li.active > a {
+  color: #00928e;
+  /*background-color: #fff;*/
+}
+
+ul.nav.navbar-nav > li.active > a:hover {
+  color: #00928e;
+}
+
+.social-media-buttons {
+  /*position: absolute;
+  right: 20%;*/
+  position: static;
+  float: right;
+  width: 120px;
+}
+
+.glyphicon.glyphicon-home {
+  top: 0;
+}
+
+#main.container-fluid {
+  height: 91.25%;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.index-bgimage {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/backgrounds/index_1-1.png');
+  background-size: cover;
+  background-position: 0, 0;
+  position: absolute;
+}
+
+.container-fluid.index-content {
+  background-color: rgba(255, 255, 255, 0.70);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  z-index: 10;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: sans-serif;
+  color: #00928e;
+}
+
+.container-fluid.index-content h1 {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#blurb {
+  font-size: 22px;
+}
+
+div#logo-div.col-md-3 {
+  width: 25%;
+}
+
+.SCG-logo {
+  height: 60%;
+  width: 60%;
+  padding-left: 6%;
+  padding-top: 10px;
+}
+
+#logo-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#SCGHeader{
+  color: #cbcbcb;
+  font-size: 22px;
+  font-family: Calibri;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 100%;
+  display:none;
+}
+
+.navbar-toggle{
+  width: 34px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0px;
+}
+
+#SCG-mobile-logo{
+  display:none;
+  margin: 8px;
+}
+
+@media (max-width: 1000px){
+  .scg-info{
+    display:none;
+  }
+
+  .social-media-buttons{
+    /*display: none;*/
+    position: static;
+    float: right;
+  }
+
+  #navbar.container-fluid{
+    padding: 0px;
+  }
+
+  ul.nav.navbar-nav{
+    float:left;
+    /*width: 100%;*/
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 767px){ /* 767px so that an ipad still shows big nav bar */
+  .social-media-buttons{
+    display: none;
+  }
+
+  ul.nav.navbar-nav{
+    width:100%;
+    margin: 0px;
+  }
+
+  ul.nav.navbar-nav>li>a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  #SCGHeader{
+    display: inline;
+  }
+
+  #SCG-mobile-logo{
+    display: inline;
+  }
+}
+
+/*@media (max-width: 1350px){
+  ul.nav.navbar-nav{
+    width: auto;
+  }
+  ul.nav.navbar-nav>li{
+    margin-right: 0px;
+  }
+}*/
