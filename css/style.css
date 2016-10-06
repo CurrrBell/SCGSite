@@ -217,6 +217,71 @@ div#logo-div.col-md-3 {
   width:5%;
 }
 
+.jumbotron {
+  padding: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  min-height: auto;
+  color: #ffffff;
+  background: url('../images/backgrounds/index_1-1.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+#blurbBackground{
+  background-color: rgba(0, 146, 142, 0.50);
+  padding: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#blurb-row{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.col-md-4 h2{
+  text-align: center;
+}
+#three-column-row{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo-div{
+  float:none;
+  margin: 0 auto;
+}
+
+#jumbo-logo{
+  max-width: 100%;
+  width: auto;
+}
+
+.btn-outline{
+  vertical-align: middle;
+  margin: 0 auto;
+  background-color: transparent;
+  color: inherit;
+  transition: all .5s;
+}
+
+.btn-primary.btn-outline{
+  color: #00928e;
+  border-color: #00928e;
+}
+
+.btn-primary.btn-outline:hover{
+  background-color: #00928e;
+  color: #fff;
+}
+
 @media (max-width: 1000px){
   .scg-info{
     display:none;
@@ -261,6 +326,14 @@ div#logo-div.col-md-3 {
 
   #SCG-mobile-logo{
     display: inline;
+  }
+
+  #blurbBackground{
+    padding:30px;
+  }
+
+  #blurb-row{
+    display: none;
   }
 }
 
