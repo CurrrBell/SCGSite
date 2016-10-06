@@ -47,7 +47,16 @@
         <li><a href="services.html">SERVICES</a></li>
         <li><a href="portfolio.html">PORTFOLIO</a></li>
         <li><a href="contact.html">CONTACT US</a></li>
-        <li><a href="#search" class="glyphicon glyphicon-search"></a></li>
+        <li><a data-target="#search" data-toggle="collapse" class="glyphicon glyphicon-search navbar-toggler"></a></li>
+        <li>
+          <div id="search" class="collapse width">
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" placeholder="search">
+              </div>
+            </form>
+          </div>
+        </li>
           <!--<form id="search" action="#" method="post">
             <div id="label"><label for="search-terms" id="search-label" class="glyphicon glyphicon-search"></label></div>
             <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
@@ -126,7 +135,7 @@
   <!-- Minified JavaScript -->
   <script src="js/bootstrap.min.js"></script>
   <!-- Custom JavaScript -->
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
 
 </body>
 </html>
