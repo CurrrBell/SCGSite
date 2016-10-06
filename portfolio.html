@@ -22,19 +22,22 @@
 </head>
 <body>
   <header class="scg-info">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <p>301-670-4990</p>
-        </div>
-        <div class="col-md-6">
-          <p>656 Quince Orchard Road, Suite 210, Gaithersburg, MD 20878</p>
-        </div>
-      </div>
+    <div class="container-fluid">
+      <div id="scg-info-phone">301-670-4990</div>
+      <div id="scg-info-address">656 Quince Orchard Road, Suite 210, Gaithersburg, MD 20878</div>
     </div>
   </header>
   <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+       </button>
+       <img id="SCG-mobile-logo" src="images/logos/SCG-logo-mobile-header.png">
+       <span id="SCGHeader">Home</span>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse container-fluid">
       <!--<div class="navbar-header">
         <a href="#"><i class="scg-logo"></i></a>
       </div>-->
@@ -49,26 +52,76 @@
             <div id="label"><label for="search-terms" id="search-label" class="glyphicon glyphicon-search"></label></div>
             <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
           </form>-->
-       <li class="scg-right">
-         <a href="#twitterURL" class="navbar-brand twitter">Twitter</a>
-         <a href="#facebookURL" class="navbar-brand facebook">Facebook</a>
-         <a href="#linkedinURL" class="navbar-brand linkedin">LinkedIn</a>
-       </li>
-      </ul>
-    </div>
+     </ul>
+     <div class="social-media-buttons">
+       <a href="#twitterURL" class="navbar-brand twitter">Twitter</a>
+       <a href="#facebookURL" class="navbar-brand facebook">Facebook</a>
+       <a href="#linkedinURL" class="navbar-brand linkedin">LinkedIn</a>
+     </div>
+   </div>
   </nav>
+  <!-- carousel -->
+  <div class="container">
+      <div class="col-xs-12">
+           <h1>Bootstrap 3 Thumbnail Slider</h1>
 
-  <!--<div class="container index-bgimage">
-  </div>-->
+          <div class="well">
+              <div id="myCarousel" class="carousel slide">
 
-  <!--<div class="container">
-    <h1>Headline</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                      <div class="item active">
+                          <div class="row">
+                              <div class="col-xs-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                              </div>
+                          </div>
+                          <!--/row-->
+                      </div>
+                      <!--/item-->
+                      <div class="item">
+                          <div class="row">
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                          </div>
+                          <!--/row-->
+                      </div>
+                      <!--/item-->
+                      <div class="item">
+                          <div class="row">
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                              <div class="col-xs-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                              </div>
+                          </div>
+                          <!--/row-->
+                      </div>
+                      <!--/item-->
+                  </div>
+                  <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+              </div>
+              <!--/myCarousel-->
+          </div>
+          <!--/well-->
+      </div>
   </div>
-  <div class="container-fluid">
-    <h1>Headline</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>-->
 
   <!-- jQuery -->
   <script src="js/jquery-3.1.0.min.js"></script>
@@ -78,4 +131,5 @@
   <script src="js/script.js"></script>
 
 </body>
+
 </html>

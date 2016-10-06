@@ -212,6 +212,11 @@ div#logo-div.col-md-3 {
   margin: 8px;
 }
 
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
 @media (max-width: 1000px){
   .scg-info{
     display:none;
