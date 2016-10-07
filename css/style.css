@@ -243,7 +243,7 @@ div#logo-div.col-md-3 {
   padding-right: 0px !important;
   min-height: auto;
   color: #ffffff;
-  background: url('../images/backgrounds/index_1-1.png') no-repeat center center fixed;
+  background: url('../images/backgrounds/index_1-1_resize.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -256,7 +256,7 @@ div#logo-div.col-md-3 {
 }
 
 #blurbBackground{
-  background-color: rgba(0, 0, 0, 0.50);
+  background-color: rgba(0, 0, 0, 0.30);
   padding: 60px;
   padding-left: 100px;
   padding-right: 100px;
