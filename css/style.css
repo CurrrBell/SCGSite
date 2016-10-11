@@ -405,6 +405,39 @@ div#logo-div.col-md-3 {
   }
 }
 
+/* CSS for shitty pages [hopefully delete later] */
+
+#main3{
+    height: calc(100% - 85px);
+}
+
+#jumbo1{
+  background-image: url('../images/backgrounds/index_1-1_resize.png');
+  height: 100%;
+  margin-bottom: 0px;
+  /*padding-top: 30%;*/
+  /*margin-left: 10%;
+  width: -moz-calc(100% - 300px);
+  width: -webkit-calc(100% - 300px);
+  width: -o-calc(100% - 300px);*/
+}
+
+#padding{
+
+}
+
+#myCarousel{
+  position: fixed;
+  bottom: 0px;
+  height: 300px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  #main3{
+    height: calc(100% - 50px);
+  }
+}
 /*@media (max-width: 1350px){
   ul.nav.navbar-nav{
     width: auto;
