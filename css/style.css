@@ -135,7 +135,7 @@ ul.nav.navbar-nav > li.active > a:hover {
 }
 
 #main.container-fluid {
-  height: 91.25%;
+  height: auto;
   width: 100%;
   padding: 0;
   position: relative;
@@ -208,7 +208,11 @@ div#logo-div.col-md-3 {
 }
 
 .navbar-form{
-  padding: 0;
+  width:100%;
+}
+
+#search-pill{
+  width:300px;
 }
 
 #search{
@@ -300,6 +304,24 @@ div#logo-div.col-md-3 {
 .btn-primary.btn-outline:hover{
   background-color: #00928e;
   color: #fff;
+}
+
+.footer{
+  margin-top: 50px;
+  padding-top: 15px;
+  background-color: rgba(0, 146, 142, 1);
+  color: #81d5c8;
+  box-shadow:inset 0 15px 10px -17px #111;
+}
+
+.footer a{
+  color:#81d5c8;
+}
+
+.footer a:hover{
+  color:#fff;
+  cursor:pointer;
+  text-decoration: none;
 }
 
 @media(max-width: 1350px){
