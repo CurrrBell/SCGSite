@@ -32,7 +32,7 @@ html, body {
 }
 
 .navbar {
-  border-radius: 0 !important;
+  border: none!important;
   font-family: sans-serif;
   background-color: rgba(255, 255, 255, 1);
   z-index: 10;
@@ -214,7 +214,7 @@ ul.nav.navbar-nav > li.active > a:hover {
   width:5%;
 }
 
-.jumbotron {
+/*.jumbotron {
   padding: 0px;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -228,7 +228,7 @@ ul.nav.navbar-nav > li.active > a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .jumbotron h1{
   text-align: center;
@@ -342,28 +342,68 @@ img.next-arrow{
   width: auto;
 }
 
-.btn-outline{
-  vertical-align: middle;
-  margin: 0 auto;
-  background-color: transparent;
-  color: inherit;
-  transition: all .5s;
-}
-
-.btn-primary.btn-outline{
-  color: #00928e;
-  border-color: #00928e;
-}
-
-.btn-primary.btn-outline:hover{
-  background-color: #00928e;
-  color: #fff;
-}
-
 #myCarousel1{
   margin:0;
   box-shadow:inset 0 15px 15px -17px #111;
 }
+
+#main3{
+    height: calc(100% - 85px);
+}
+
+#bg-jumbo{
+  background: url('../images/backgrounds/Portfolio_bg_1920x1080.png') no-repeat center center fixed;
+  height: 100%;
+  margin-bottom: 0px;
+  padding:0;
+  z-index: -1;
+  /*padding-top: 30%;*/
+  /*margin-left: 10%;
+  width: -moz-calc(100% - 300px);
+  width: -webkit-calc(100% - 300px);
+  width: -o-calc(100% - 300px);*/
+}
+
+#jumbo-header{
+  
+  color: #fff;
+  font-weight: normal;
+  font-size: 100px;
+}
+
+.demo{
+  position:fixed;
+  bottom:0;
+  margin:0 !important;
+  min-height: 300px;
+  height:30%;
+  width:100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.slider-item{
+  /*background: rgba(0, 0, 0, 0.0);*/
+}
+
+.slick-dots{
+  height:auto;
+  bottom: 25px !important;
+}
+
+.slick-dots li button:before{
+  /*color: #00928e;*/
+  font-size: 40px;
+  line-height: 40px;
+}
+
+#myCarousel{
+  background-color: rgba(255, 255, 255, 0.80);
+  position: fixed;
+  bottom: 0px;
+  height: 300px;
+  width: 100%;
+}
+
 .container.marketing{
   box-shadow:inset 0 15px 15px -17px #111;
   padding-top: 50px;
@@ -488,41 +528,21 @@ img.next-arrow{
     margin-top: 20px;
   }
 
+  .demo{
+    height:100%;
+  }
+
+  .slider-item{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 450px){
   .featurette-image{
     max-height: 300px;
   }
-}
-
-/* CSS for shitty pages [hopefully delete later] */
-
-#main3{
-    height: calc(100% - 85px);
-}
-
-#jumbo1{
-  background-image: url('../images/backgrounds/Portfolio_bg.png');
-  height: 100%;
-  margin-bottom: 0px;
-  /*padding-top: 30%;*/
-  /*margin-left: 10%;
-  width: -moz-calc(100% - 300px);
-  width: -webkit-calc(100% - 300px);
-  width: -o-calc(100% - 300px);*/
-}
-
-#padding{
-
-}
-
-#myCarousel{
-  background-color: rgba(255, 255, 255, 0.80);
-  position: fixed;
-  bottom: 0px;
-  height: 300px;
-  width: 100%;
 }
 
 @media (max-width: 1000px) {
