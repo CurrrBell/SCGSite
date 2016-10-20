@@ -347,11 +347,86 @@ img.next-arrow{
   box-shadow:inset 0 15px 15px -17px #111;
 }
 
-#main3{
-    height: calc(100% - 85px);
+#main-portfolio{
+    height: calc(100% - 150px);
+    padding-top: 85px;
 }
 
+#myCarousel1{
+  max-height: 700px;
+  height: auto;
+}
+
+.carousel-indicators{
+  bottom:0;
+}
+
+.carousel-inner{
+  height: 700px;
+}
+
+.carousel .item{
+  height: 700px;
+  background-color: #BBB;
+}
+
+.item > .container{
+  height:100%;
+  width: auto;
+}
+
+.container .carousel-caption{
+  /*padding-bottom: 20px;*/
+  bottom: 0;
+}
+
+.carousel-caption .btn{
+  background-color: #00928e;
+  border-color: #00928e;
+}
+
+.carousel-caption .btn:active{
+  background-color: #00928e;
+  border-color: #00928e;
+}
+
+/*.carousel-indicators .active{
+  background-color: #00928e;
+}*/
+
+.portfolio-slider-item{
+  display: block;
+  max-height: 500px;
+  height:auto;
+  min-width: 0!important;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-7 > h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.featurette-image{
+  max-height: 500px;
+  max-width: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+ .featurette-divider {
+  border-top: 1px solid #00928e;
+  box-shadow: 0px 1px 1px 1px #ddd;
+}
+
+/*.well{
+  box-shadow: 13px 15px 15px -17px #111;
+}*/
+
 #bg-jumbo{
+  /*background-color: rgba(0, 0, 0, 0.30);*/
   background: url('../images/backgrounds/Portfolio_bg_1920x1080.png') no-repeat center center fixed;
   height: 100%;
   margin-bottom: 0px;
@@ -365,18 +440,25 @@ img.next-arrow{
 }
 
 #jumbo-header{
-  
+  margin-top: 0;
+  padding-top: 50px;
   color: #fff;
   font-weight: normal;
-  font-size: 100px;
+  font-size: 120px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+#jumbo-tint{
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.10);
 }
 
 .demo{
   position:fixed;
-  bottom:0;
+  bottom: 150px;
   margin:0 !important;
-  min-height: 300px;
-  height:30%;
+  min-height: 340px;
+  height:40%;
   width:100%;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -387,7 +469,7 @@ img.next-arrow{
 
 .slick-dots{
   height:auto;
-  bottom: 25px !important;
+  bottom: 35px !important;
 }
 
 .slick-dots li button:before{
@@ -413,6 +495,7 @@ img.next-arrow{
 }
 
 .footer{
+  height:150px;
   /*margin-top: 50px;*/
   padding-top: 15px;
   background-color: rgba(0, 146, 142, 1);
@@ -473,13 +556,14 @@ img.next-arrow{
     padding: 5px;
   }
 
-  #main2.container-fluid{
-    height: calc(100% - 50px);
-  }
-
   .SCG-logo{
     height: 50%;
     width: auto;
+  }
+
+  #main-portfolio{
+    padding-top: 50px;
+    height: calc(100% - 150px);
   }
 
 }
@@ -528,8 +612,24 @@ img.next-arrow{
     margin-top: 20px;
   }
 
+  #jumbo-header{
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
   .demo{
-    height:100%;
+    background-color: transparent;
+    max-height: calc(100% - 120px);
+    height: 100%;
+    bottom:0;
+  }
+
+  #main-portfolio{
+    height: 100%;
+  }
+
+  #portfolio-footer{
+    display: none;
   }
 
   .slider-item{
@@ -537,6 +637,40 @@ img.next-arrow{
     margin-right: auto;
   }
 
+  .carousel .item{
+    height: 200px !important;
+  }
+
+  .carousel-inner{
+    height: 200px;
+  }
+
+  .portfolio-slider-item{
+    display: none;
+  }
+
+  .carousel-caption{
+    left: 0;
+    right: 0;
+  }
+
+  .carousel-caption h1{
+    font-size: 23px;
+  }
+
+  .carousel-indicators{
+    margin-bottom: 0;
+  }
+
+  .featurette-divider{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .footer{
+    font-size: 11px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 450px){
@@ -544,17 +678,3 @@ img.next-arrow{
     max-height: 300px;
   }
 }
-
-@media (max-width: 1000px) {
-  #main3{
-    height: calc(100% - 50px);
-  }
-}
-/*@media (max-width: 1350px){
-  ul.nav.navbar-nav{
-    width: auto;
-  }
-  ul.nav.navbar-nav>li{
-    margin-right: 0px;
-  }
-}*/

@@ -25,6 +25,12 @@ $(document).ready(function(){
 
 		responsive: [{
 
+			breakpoint: 1700,
+			settings:{
+				slidesToShow: 4
+			}
+		},{
+
 			breakpoint: 1350,
 			settings:{
 				slidesToShow: 3
@@ -39,10 +45,12 @@ $(document).ready(function(){
 
 			breakpoint: 767,
 			settings:{
+				initialSlide: 1,
+				slidesToShow: 2,
 				vertical: true,
 				verticalSwiping: true,
 				swipeToSlide: true,
-				dots:false
+				dots: false
 			}
 		}]
 	});
