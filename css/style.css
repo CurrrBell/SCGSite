@@ -136,7 +136,7 @@ ul.nav.navbar-nav > li.active > a:hover {
 .bg-image{
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: calc(100% - 150px);
   opacity: 1;
   transition: opacity 3s linear;
   z-index: -99;
@@ -352,6 +352,11 @@ img.next-arrow{
     padding-top: 85px;
 }
 
+#main-about{
+    height: calc(100% - 150px);
+    padding-top: 85px;
+}
+
 #myCarousel1{
   max-height: 700px;
   height: auto;
@@ -427,7 +432,7 @@ img.next-arrow{
 
 #bg-jumbo{
   /*background-color: rgba(0, 0, 0, 0.30);*/
-  /*background: url('../images/backgrounds/Portfolio_bg_1920x1080.png') no-repeat center center fixed;*/
+  background: url('../images/backgrounds/Portfolio_bg_1920x1080.png') no-repeat center center fixed;
   height: 100%;
   margin-bottom: 0px;
   padding:0;
@@ -625,13 +630,10 @@ img.next-arrow{
   }
 
   #main-portfolio{
-    min-height: 100%;
-    height: auto !important;
-    height: calc(100% - 100px);
-    margin: 0 auto -100px;
+    height: 100%;
   }
 
-  #portfolio-footer, {
+  #portfolio-footer{
     display: none;
   }
 
@@ -672,16 +674,11 @@ img.next-arrow{
 
   .footer{
     font-size: 11px;
-  }
-
-  .push{
-    content: "";
-    display: block;
-  }
-
-  .footer, .push{
-    font-size: 11px;
     height: 100px;
+  }
+
+  #main-portfolio>#bg-container>.bg-image {
+    height: calc(100% - 50px);
   }
 }
 
