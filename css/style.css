@@ -641,6 +641,11 @@ img.next-arrow{
     display: inline;
   }
 
+  .bg-image{
+    top: 0;
+    height: 100vh;
+  }
+
   #blurb-background{
     padding:30px;
     padding-top: 80px;
