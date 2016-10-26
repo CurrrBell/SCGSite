@@ -190,10 +190,10 @@ ul.nav.navbar-nav > li.active > a:hover {
 
 #search{
   font-weight: lighter;
-  ::-webkit-input-placeholder { color:#f00; }
+  /*::-webkit-input-placeholder { color:#f00; }
   ::-moz-placeholder { color:#f00; } /* firefox 19+ */
-  :-ms-input-placeholder { color:#f00; } /* ie */
-  input:-moz-placeholder { color:#f00; }
+  /*:-ms-input-placeholder { color:#f00; } /* ie */
+  /*input:-moz-placeholder { color:#f00; }*/*/
 }
 
 #SCG-mobile-logo{
