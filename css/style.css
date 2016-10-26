@@ -644,6 +644,7 @@ img.next-arrow{
   .bg-image{
     top: -250px;
     height: 100vh;
+    z-index: -1;
   }
 
   #blurb-background{
