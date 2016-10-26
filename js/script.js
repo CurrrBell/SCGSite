@@ -22,6 +22,7 @@ $(document).ready(function(){
 		dotsClass: 'slick-dots',
 		pauseOnHover: true,
 		pauseOnDotsHover: true,
+		lazyLoad: 'progressive',
 
 		responsive: [{
 
