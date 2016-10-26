@@ -147,6 +147,10 @@ ul.nav.navbar-nav > li.active > a:hover {
   z-index: -99;
 }
 
+#bg-container{
+  top:0;
+}
+
 #main.container-fluid {
   height: auto;
   width: 100%;
