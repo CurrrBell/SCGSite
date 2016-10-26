@@ -15,6 +15,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <!-- Custom CSS -->
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -95,7 +100,28 @@
       </div>
     </div>
     <div id="three-column-row" class="row">
-      <div class="col-md-4">
+      <div class="col-md-3 col-md-push-9">
+        <img class="center-block icon" src="images/icons/phone-gray.png">
+        <h2>Contact Us</h2>
+        <div class="index-text">
+          <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="contact-call-to-action">
+          <a href="" class="call-to-action-text">Get in touch <img class="next-arrow" src="images/icons/arrow-pointing-to-right.png"></a>
+        </div>
+      </div>
+      <div class="col-md-3 col-md-pull-3">
+        <img class="center-block icon" src="images/icons/megaphone.png">
+        <h2>News</h2>
+        <div class="index-text">
+          <div id="news-slider" class="slider demo">
+            <div class="slider-item"><p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            <div class="slider-item"><p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            <div class="slider-item"><p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-md-pull-3">
           <img class="center-block icon" src="images/icons/photo-camera-dark-gray.png">
           <h2>Portfolio</h2>
           <div class="index-text">
@@ -105,7 +131,7 @@
             <a href="portfolio.html" class="call-to-action-text">See what we've done <img class="next-arrow" src="images/icons/arrow-pointing-to-right.png"></a>
           </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3 col-md-pull-3">
         <!-- <img class="center-block icon" src="images/icons/microscope-gray.png"> -->
         <!-- <img class="center-block icon" src="images/icons/computer.png"> -->
         <!-- <img class="center-block icon" src="images/icons/contract.png"> -->
@@ -117,19 +143,10 @@
           <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div id="services-call-to-action">
-          <a href="services.html" class="call-to-action-text">Learn more about what we can do for you <img class="next-arrow" src="images/icons/arrow-pointing-to-right.png"></a>
+          <a href="services.html" class="call-to-action-text">What we can do for you <img class="next-arrow" src="images/icons/arrow-pointing-to-right.png"></a>
         </div>
       </div>
-      <div class="col-md-4">
-        <img class="center-block icon" src="images/icons/phone-gray.png">
-        <h2>Contact Us</h2>
-        <div class="index-text">
-          <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div id="contact-call-to-action">
-          <a href="" class="call-to-action-text">Get in touch <img class="next-arrow" src="images/icons/arrow-pointing-to-right.png"></a>
-        </div>
-      </div>
+
     </div>
   </div>
   <footer class="footer">
@@ -156,7 +173,10 @@
   <script src="js/bootstrap.min.js"></script>
   <!-- Custom JavaScript -->
   <script src="js/rotateBackground.js"></script>
-  <!-- <script src="js/script.js"></script> -->
+  <script src="js/script.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
 
 </body>
 </html>

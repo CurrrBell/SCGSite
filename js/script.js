@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-	$('.demo').slick({
+	$('#portfolio-slider').slick({
 		infinite: true,
 		slidesToShow: 5,
 		slidesToScroll: 1,
@@ -53,5 +53,19 @@ $(document).ready(function(){
 				dots: false
 			}
 		}]
+	});
+});
+
+$(document).ready(function(){
+	$('#news-slider').slick({
+		slidesToShow: 1,
+		autoplay: true,
+		autoplaySpeed: 10000,
+		prevArrow: null,
+		nextArrow: null,
+		dots: true,
+		dotsClass: 'slick-dots',
+		pauseOnHover: true,
+		pauseOnDotsHover: true
 	});
 });

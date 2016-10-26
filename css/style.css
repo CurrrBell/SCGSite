@@ -254,7 +254,7 @@ ul.nav.navbar-nav > li.active > a:hover {
   text-align: left;
 }
 
-.col-md-4 h2{
+.col-md-3 h2{
   text-align: center;
 }
 
@@ -269,13 +269,13 @@ ul.nav.navbar-nav > li.active > a:hover {
   box-shadow:inset 0 15px 15px -17px #111;
 }
 
-#three-column-row>.col-md-4{
+#three-column-row>.col-md-3{
   margin-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-#three-column-row>.col-md-4>h2{
+#three-column-row>.col-md-3>h2{
   color: rgba(0, 146, 142, 1);
 }
 
@@ -299,7 +299,7 @@ ul.nav.navbar-nav > li.active > a:hover {
 }
 
 #services-call-to-action{
-  max-width: 330px;
+  max-width: 200px;
   margin: auto;
 }
 
@@ -462,7 +462,7 @@ img.next-arrow{
 
 
 
-.demo{
+#portfolio-slider{
   position:fixed;
   bottom: 150px;
   margin:0 !important;
@@ -476,15 +476,30 @@ img.next-arrow{
   /*background: rgba(0, 0, 0, 0.0);*/
 }
 
-.slick-dots{
+
+
+#portfolio-slider > .slick-dots{
   height:auto;
-  bottom: 35px !important;
+  bottom: 35px;
 }
 
-.slick-dots li button:before{
+#portfolio-slider > .slick-dots li button:before{
   /*color: #00928e;*/
   font-size: 40px;
   line-height: 40px;
+}
+
+#news-slider > .slick-dots{
+  margin-bottom: -20px;
+  bottom:0;
+}
+
+#news-slider > .slick-dots li{
+  margin:0;
+}
+
+#news-slider > .slick-dots li button:before{
+  font-size: 20px;
 }
 
 /* Fix Slider Stacking issue on load*/
@@ -638,7 +653,7 @@ img.next-arrow{
     font-size: 30px;
   }
 
-  .demo{
+  #portfolio-slider{
     background-color: transparent;
     max-height: calc(100% - 120px);
     height: 100%;
