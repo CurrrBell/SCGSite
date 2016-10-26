@@ -642,7 +642,7 @@ img.next-arrow{
   }
 
   .bg-image{
-    top: 0;
+    bottom: 100px;
     height: 100vh;
   }
 
