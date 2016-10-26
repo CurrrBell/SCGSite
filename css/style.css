@@ -665,8 +665,9 @@ img.next-arrow{
   #blurb{
     display: none;
   }
-  #column-row > .col-md-4{
-    margin-top: 20px;
+  #three-column-row > .col-md-3{
+    /*margin-top: 20px;*/
+    margin:0;
   }
 
   #jumbo-header{
