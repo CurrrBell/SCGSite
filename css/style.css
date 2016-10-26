@@ -360,10 +360,6 @@ img.next-arrow{
     padding-top: 85px;
 }
 
-/*#portfolio-bg-container{
-  background-image: url('images/backgrounds/bg_Portfolio_1.png') ;
-}*/
-
 #main-about{
     height: calc(100% - 150px);
     padding-top: 85px;
@@ -683,11 +679,6 @@ img.next-arrow{
     height: 100%;
   }
 
-  /*#bg-jumbo{
-    background: none;
-    background-color: #31708f;
-  }*/
-
   #portfolio-footer{
     display: none;
   }
@@ -704,8 +695,6 @@ img.next-arrow{
   .carousel-inner{
     height: 200px;
   }
-
-
 
   .portfolio-slider-item{
     display: none;
