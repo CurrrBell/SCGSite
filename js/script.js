@@ -9,6 +9,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
+	window.scrollTo(0,1); 
 	$('#portfolio-slider').slick({
 		infinite: true,
 		slidesToShow: 5,
