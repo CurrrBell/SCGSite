@@ -133,6 +133,7 @@ ul.nav.navbar-nav > li.active > a:hover {
 .glyphicon.glyphicon-home {
   top: 0;
 }
+
 .bg-image{
   position: absolute;
   width: 100vw;
@@ -648,6 +649,10 @@ img.next-arrow{
 
   #SCG-mobile-logo{
     display: inline;
+  }
+
+  #bg-image{
+    display:none;
   }
 
   .bg-image{
