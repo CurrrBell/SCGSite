@@ -676,7 +676,7 @@ img.next-arrow{
   }
 
   #main-portfolio{
-    height: calc(100% + 1px);
+    height: 100%;
   }
 
   #portfolio-footer{
