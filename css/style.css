@@ -656,8 +656,8 @@ img.next-arrow{
     display: inline;
   }
 
-  #bg-image{
-    display:none;
+  #bg-container{
+    display: none;
   }
 
   .bg-image{
@@ -674,10 +674,19 @@ img.next-arrow{
     z-index: -1;
   }
 
-  .bg-mobile{
+  .mobile-bg-image{
     object-fit: cover;
+    position: absolute;
     width: 100vw;
     height: 100%;
+    opacity: 1;
+    transition: opacity 3s linear;
+    z-index: -99;
+  }
+
+  .mobile-bg-hidden{
+    opacity: 0;
+    z-index: -99;
   }
 
   #blurb-background{
