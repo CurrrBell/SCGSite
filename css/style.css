@@ -12,6 +12,7 @@ html, body {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 0;
+  height: 35px;
 }
 
 .scg-info p {
@@ -468,8 +469,6 @@ img.next-arrow{
   background-color: rgba(0, 0, 0, 0.10);
 }
 
-
-
 #portfolio-slider{
   position:fixed;
   bottom: 150px;
@@ -527,21 +526,30 @@ img.next-arrow{
   width: 100%;
 }
 
-.container.marketing{
+#bg-container {
+  height: calc(100% - 150px);
+}
+
+.container.marketing,
+.container.about{
   box-shadow:inset 0 15px 15px -17px #111;
   padding-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
   width:100% !important;
+  min-height: calc(100% - 197px);
 }
 
 .footer{
   height:150px;
   /*margin-top: 50px;*/
-  padding-top: 15px;
   background-color: rgba(0, 146, 142, 1);
   color: #81d5c8;
   box-shadow:inset 0 15px 15px -17px #111;
+}
+
+.footer > .container {
+  padding-top: 15px;
 }
 
 .footer a{
