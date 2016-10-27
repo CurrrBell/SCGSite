@@ -21,55 +21,160 @@
 
 </head>
 <body>
-  <header class="scg-info">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <p>301-670-4990</p>
-        </div>
-        <div class="col-md-6">
-          <p>656 Quince Orchard Road, Suite 210, Gaithersburg, MD 20878</p>
-        </div>
+  <div id="top-nav-container">
+    <header class="scg-info">
+      <div class="container-fluid">
+        <div id="scg-info-phone">301-670-4990</div>
+        <div id="scg-info-address">656 Quince Orchard Road, Suite 210, Gaithersburg, MD 20878</div>
       </div>
-    </div>
-  </header>
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <!--<div class="navbar-header">
-        <a href="#"><i class="scg-logo"></i></a>
-      </div>-->
-      <ul class="nav navbar-nav">
-        <li><a href="index.html" class="glyphicon glyphicon-home"></a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li class="active"><a href="services.html">SERVICES</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="contact.html">CONTACT US</a></li>
-        <li><a href="#search" class="glyphicon glyphicon-search"></a></li>
-          <!--<form id="search" action="#" method="post">
-            <div id="label"><label for="search-terms" id="search-label" class="glyphicon glyphicon-search"></label></div>
-            <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
-          </form>-->
-       <li class="scg-right">
+    </header>
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+         </button>
+         <img id="SCG-mobile-logo" src="images/logos/SCG-logo-mobile-header.png">
+         <span id="SCGHeader">Home</span>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html" class="glyphicon glyphicon-home"></a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li>
+            <form class="navbar-form" role="search">
+              <div id="search" class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+            </form>
+          </li>
+       </ul>
+       <div class="social-media-buttons">
          <a href="https://twitter.com/the_scg" class="navbar-brand twitter">Twitter</a>
          <a href="#facebookURL" class="navbar-brand facebook">Facebook</a>
          <a href="#linkedinURL" class="navbar-brand linkedin">LinkedIn</a>
-       </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!--<div class="container index-bgimage">
-  </div>-->
-
-  <!--<div class="container">
-    <h1>Headline</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       </div>
+     </div>
+    </nav>
   </div>
-  <div class="container-fluid">
-    <h1>Headline</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>-->
-
+  <div id="services-main">
+    <h1>Services</h1>
+    <div id="services-content">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <h2>Strategic Communication and Targeted Outreach</h2>
+            <img data-toggle="collapse" data-target="#outreach" src="images/icons/down-arrow.png"/>
+            <ul>
+              <li>Digital and Social Marketing</li>
+              <li>Community Engagement and Outreach</li>
+              <li>Brand Marketing</li>
+              <li>Graphics and Publication Production</li>
+              <li>Video</li>
+              <li>Multimedia</li>
+            </ul>
+            <div id="outreach" class="collapse">
+              <h3>Helping Science Tell Its Story</h3>
+              <p>SCG harnesses the combined efforts of all of our departments to make sure that your message is heard loud and clear. We use research to inform our strategies and always ensure that information is disseminated innovatively and effectively across multiple platforms and using various mediums.</p>
+              <p>We are experts at translating technical, complex materials into language that is easily understood by lay audiences. We also are adept at preparing communication products directed to scientists, researchers, clinicians, and other technical audiences. SCG develops compelling, award-winning communication materials that target researchers, health care professionals, environmental managers and specialists, program administrators, community-based organizations, policymakers, educators, clinical patients and their families, and the general public.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <h2>Research, Analysis, Evaluation, Writing</h2>
+            <img data-toggle="collapse" data-target="#research" src="images/icons/down-arrow.png"/>
+            <ul>
+              <li>Research and Analysis</li>
+              <li>Scientific Writing and Editing</li>
+              <li>Peer Review</li>
+            </ul>
+            <div id="research" class="collapse">
+              <h3>Informed Accuracy and Creative Presentation</h3>
+              <p>At SCG, we don’t leave anything to chance. Our expert Editing, Analysis, and Peer Review departments have a wide breadth of experience in the life, physical, and social sciences and a deep understanding of grammar, language, and content. You can trust that our technical language editing is backed with years of field experience and that our information synthesis will make it so that your message is heard by every audience you intend.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <h2>Web, Database, and IT</h2>
+            <img data-toggle="collapse" data-target="#web" src="images/icons/down-arrow.png"/>
+            <ul>
+              <li>Website Development</li>
+              <li>Database Development and Maintenance </li>
+              <li>IT Support</li>
+              <li>Analytics and Data Support</li>
+              <li>Usability Testing</li>
+            </ul>
+            <div id="web" class="collapse">
+              <h3>Make it Easy, Make it Functional</h3>
+              <p>When your message makes it to the web, make sure you have SCG on your team to help it perform. Our information systems incorporate text-based reporting and retrieval databases, tracking databases, web-based data collection and reporting systems, and the latest website design and security technologies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <h2>Conference and Webinar Support</h2>
+            <img data-toggle="collapse" data-target="#conference" src="images/icons/down-arrow.png"/>
+            <ul>
+              <li>Exhibits and Posters</li>
+              <li>In-Person and Virtual</li>
+              <li>Conference Engagement</li>
+            </ul>
+            <div id="conference" class="collapse">
+              <h3>Your Meetings Matter.</h3>
+              <p>We understand that conferences require meticulous planning and coordination. Our goal is to provide every element of support necessary to ensure an effective meeting. SCG’s Certified Meeting Planners assist our clients in planning and organizing conferences that achieve their goals and effectively transfer scientific knowledge. Their extensive expertise is the key to SCG’s phenomenal reputation for executing flawless events.</p>
+              <p>If you have your eyes set on something bigger, SCG is experienced in exhibit coordination too! We have worked with numerous exhibit styles and can provide support for pre-exhibit negotiations; shipping, assembly, dismantling, and storage of exhibits; as well as professional exhibit staffing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom-row" class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <h2>Inquiry Response &amp; Information Dissemination</h2>
+            <img data-toggle="collapse" data-target="#information" src="images/icons/down-arrow.png"/>
+            <ul>
+              <li>Call Center Management</li>
+              <li>Inquiry Response &amp; Tracking</li>
+              <li>Publication Distribution</li>
+              <li>Warehouse &amp; Inventory Management</li>
+            </ul>
+            <div id="information" class="collapse">
+              <h3>Leave the Hard Work to Us</h3>
+              <p>SCG provides Call Center and Clearinghouse support through our integrated Inquiry Response and Warehouse Center. The Inquiry Response Center staff provides responses to inquiries from the public, government officials, and health professionals about conditions relating to specific health topics.</p>
+              <p>SCG’s warehouse support includes inventory management, packaging, order fulfillment and distribution, and materials tracking. From automated online ordering, to inventory thresholds, and print on demand, we use detailed inventory management practices and an automated database, supplemented by sound warehousing practices, to ensure that consumer and client demands for materials are met to their satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="pull-left">
+        <p>The Scientific Consulting Group, Inc.<br>
+           656 Quince Orchard Road, Suite 210<br>
+           Gaithersburg, Maryland 20878-1409
+        </p>
+        <p>&copy; The Scientific Consulting Group, Inc. 2016</p>
+      </div>
+      <div class="pull-right text-right">
+        <p><a>Directions</a></p>
+        <p><a>Careers</a></p>
+        <p><a>SCG Mail</a></p>
+      </div>
+    </div>
+  </footer>
   <!-- jQuery -->
   <script src="js/jquery-3.1.0.min.js"></script>
   <!-- Minified JavaScript -->
