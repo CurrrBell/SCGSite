@@ -538,7 +538,7 @@ img.next-arrow{
 #services-main > .row{
   margin: 0;
 }
-.well{
+.col-md-6 > .well{
   box-shadow: 0px 0px 3px 0px #111;
 }
 
@@ -550,13 +550,14 @@ img.next-arrow{
   width: 100%;
   text-align: center;
   /*padding-left: 30px;*/
-  display: inline-block;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .arrow{
-  width: 32px;
+  width: 150px;
   margin: 0 auto;
+  padding-left: 59px;
+  cursor:pointer; cursor:hand;
 }
 
 .toggle{

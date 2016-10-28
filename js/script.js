@@ -11,7 +11,7 @@
 $(document).ready(function(){
 	$('#portfolio-slider').slick({
 		infinite: true,
-		slidesToShow: 5,
+		slidesToShow: 4, //TODO: INCREASE slidesToShow WHEN WE GET MORE ITEMS TO SHOW
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
