@@ -579,6 +579,10 @@ img.next-arrow{
   /*margin-top: 30px;*/
 }
 
+#news-slider {
+  max-height: 60px;
+}
+
 #news-slider > .slick-dots{
   margin-bottom: -20px;
   bottom:0;
@@ -592,6 +596,14 @@ img.next-arrow{
   font-size: 20px;
 }
 
+#news-slider-item-1 {
+  width: 292px !important;
+}
+
+#news-slider>.slick-list>.slick-track>.slick-cloned {
+  display: none !important;
+  height: 0;
+}
 /* Fix Slider Stacking issue on load*/
 .slider {
   display: none;
